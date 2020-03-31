@@ -1,0 +1,378 @@
+
+
+*******************************************************************************
+Sat Aug 31 17:33:53 2019
+
+
+FIT:    data read from '20 mL.txt' u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 18
+function used for fitting: f(x)
+	f(x)=k*x+l
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Sat Aug 31 17:34:03 2019
+
+
+FIT:    data read from '20 mL.txt' u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 18
+function used for fitting: a(x)
+	a(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.1172828565e+06   0.00e+00  3.39e+02    1.000000e+00   1.000000e+00
+   5 5.4988688713e+00  -1.73e-05  3.39e-03   -1.306282e-03   3.263375e+00
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 5.49887
+rel. change during last iteration : -1.73235e-10
+
+degrees of freedom    (FIT_NDF)                        : 16
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.586242
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.343679
+p-value of the Chisq distribution (FIT_P)              : 0.992662
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -0.00130628      +/- 3.601e-05    (2.757%)
+b               = 3.26337          +/- 0.01125      (0.3447%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.718  1.000 
+
+
+*******************************************************************************
+Sat Aug 31 17:37:37 2019
+
+
+FIT:    data read from '40 mL.txt' u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 16
+function used for fitting: a(x)
+	a(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   c             d            
+   0 1.9714146403e+01   0.00e+00  0.00e+00    1.000000e+00   1.000000e+00
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Sat Aug 31 17:37:45 2019
+
+
+FIT:    data read from '40 mL.txt' u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 16
+function used for fitting: b(x)
+	b(x)=c*x+d
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   c             d            
+   0 2.9183226245e+06   0.00e+00  3.03e+02    1.000000e+00   1.000000e+00
+   5 1.0554014657e+01  -7.37e-06  3.03e-03   -1.135671e-03   3.208763e+00
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 10.554
+rel. change during last iteration : -7.36822e-11
+
+degrees of freedom    (FIT_NDF)                        : 14
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.86825
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.753858
+p-value of the Chisq distribution (FIT_P)              : 0.720661
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+c               = -0.00113567      +/- 5.543e-05    (4.881%)
+d               = 3.20876          +/- 0.01648      (0.5137%)
+
+correlation matrix of the fit parameters:
+                c      d      
+c               1.000 
+d              -0.693  1.000 
+
+
+*******************************************************************************
+Sat Aug 31 17:39:38 2019
+
+
+FIT:    data read from '50 mL.txt' u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 20
+function used for fitting: c(x)
+	c(x)=e*x+f
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   e             f            
+   0 9.7947458489e+06   0.00e+00  4.96e+02    1.000000e+00   1.000000e+00
+   5 2.5619338033e+00  -6.31e-05  4.96e-03   -8.610684e-04   3.275997e+00
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 2.56193
+rel. change during last iteration : -6.30867e-10
+
+degrees of freedom    (FIT_NDF)                        : 18
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.377266
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.14233
+p-value of the Chisq distribution (FIT_P)              : 0.999992
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+e               = -0.000861068     +/- 1.439e-05    (1.671%)
+f               = 3.276            +/- 0.006398     (0.1953%)
+
+correlation matrix of the fit parameters:
+                e      f      
+e               1.000 
+f              -0.699  1.000 
+
+
+*******************************************************************************
+Sat Aug 31 17:41:41 2019
+
+
+FIT:    data read from '80 mL.txt' u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 16
+function used for fitting: d(x)
+	d(x)=g*x+h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   h             g            
+   0 2.9183217100e+06   0.00e+00  3.03e+02    1.000000e+00   1.000000e+00
+   5 1.0588592534e+01  -7.36e-06  3.03e-03    3.208714e+00  -1.135493e-03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 10.5886
+rel. change during last iteration : -7.35568e-11
+
+degrees of freedom    (FIT_NDF)                        : 14
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.869671
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.756328
+p-value of the Chisq distribution (FIT_P)              : 0.71801
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+h               = 3.20871          +/- 0.01651      (0.5146%)
+g               = -0.00113549      +/- 5.552e-05    (4.89%)
+
+correlation matrix of the fit parameters:
+                h      g      
+h               1.000 
+g              -0.693  1.000 
+
+
+*******************************************************************************
+Sat Aug 31 17:44:04 2019
+
+
+FIT:    data read from '100 mL.txt' u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 18
+function used for fitting: e(x)
+	e(x)=i*x+j
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   i             j            
+   0 9.5209429023e+06   0.00e+00  5.15e+02    1.000000e+00   1.000000e+00
+   5 4.9853638366e+00  -5.36e-05  5.15e-03   -6.788537e-04   3.258523e+00
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 4.98536
+rel. change during last iteration : -5.36376e-10
+
+degrees of freedom    (FIT_NDF)                        : 16
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.558198
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.311585
+p-value of the Chisq distribution (FIT_P)              : 0.995826
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+i               = -0.000678854     +/- 1.905e-05    (2.806%)
+j               = 3.25852          +/- 0.009455     (0.2902%)
+
+correlation matrix of the fit parameters:
+                i      j      
+i               1.000 
+j              -0.689  1.000 
+
+
+*******************************************************************************
+Sat Aug 31 17:47:44 2019
+
+
+FIT:    data read from '120 mL.txt' u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: f(x)
+	f(x)=k*x+l
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   k             l            
+   0 8.2878402101e+06   0.00e+00  4.95e+02    1.000000e+00   1.000000e+00
+   5 3.5683242659e+00  -6.40e-05  4.95e-03   -6.843062e-04   3.310207e+00
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 3.56832
+rel. change during last iteration : -6.39628e-10
+
+degrees of freedom    (FIT_NDF)                        : 15
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.487738
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.237888
+p-value of the Chisq distribution (FIT_P)              : 0.998844
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+k               = -0.000684306     +/- 1.682e-05    (2.457%)
+l               = 3.31021          +/- 0.008172     (0.2469%)
+
+correlation matrix of the fit parameters:
+                k      l      
+k               1.000 
+l              -0.701  1.000 
+
+
+*******************************************************************************
+Sat Aug 31 17:54:14 2019
+
+
+FIT:    data read from '150 mL.txt' u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: g(x)
+	g(x)=m*x+n
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             n            
+   0 1.1446541120e+07   0.00e+00  5.81e+02    1.000000e+00   1.000000e+00
+   5 1.7710757846e+00  -4.60e-04  5.81e-03   -5.554412e-04   3.272515e+00
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.77108
+rel. change during last iteration : -4.60449e-09
+
+degrees of freedom    (FIT_NDF)                        : 15
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.343616
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.118072
+p-value of the Chisq distribution (FIT_P)              : 0.999987
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = -0.000555441     +/- 1.026e-05    (1.848%)
+n               = 3.27252          +/- 0.006077     (0.1857%)
+
+correlation matrix of the fit parameters:
+                m      n      
+m               1.000 
+n              -0.715  1.000 
+
+
+*******************************************************************************
+Sat Aug 31 17:56:02 2019
+
+
+FIT:    data read from '180 mL.txt' u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 17
+function used for fitting: h(x)
+	h(x)=o*x+p
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   o             p            
+   0 1.6673282408e+07   0.00e+00  7.01e+02    1.000000e+00   1.000000e+00
+   5 4.9834618942e+00  -6.79e-04  7.01e-03   -4.803764e-04   3.292369e+00
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 4.98346
+rel. change during last iteration : -6.79012e-09
+
+degrees of freedom    (FIT_NDF)                        : 15
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.576395
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.332231
+p-value of the Chisq distribution (FIT_P)              : 0.992266
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+o               = -0.000480376     +/- 1.391e-05    (2.897%)
+p               = 3.29237          +/- 0.009731     (0.2956%)
+
+correlation matrix of the fit parameters:
+                o      p      
+o               1.000 
+p              -0.693  1.000 
+
+
+*******************************************************************************
+Sat Aug 31 17:57:55 2019
+
+
+FIT:    data read from '190 mL.txt' u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 21
+function used for fitting: i(x)
+	i(x)=q*x+r
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   q             r            
+   0 6.0803745029e+07   0.00e+00  1.20e+03    1.000000e+00   1.000000e+00
+   5 3.9740094843e+00  -7.27e-02  1.20e-02   -4.009783e-04   3.304105e+00
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 3.97401
+rel. change during last iteration : -7.26929e-07
+
+degrees of freedom    (FIT_NDF)                        : 19
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.457338
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.209158
+p-value of the Chisq distribution (FIT_P)              : 0.999899
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+q               = -0.000400978     +/- 7.323e-06    (1.826%)
+r               = 3.30411          +/- 0.007496     (0.2269%)
+
+correlation matrix of the fit parameters:
+                q      r      
+q               1.000 
+r              -0.687  1.000 
+
+
+*******************************************************************************
+Sat Aug 31 18:00:52 2019
+
+
+FIT:    data read from '200 mL.txt' u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 21
+function used for fitting: j(x)
+	j(x)=s*x+t
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   s             t            
+   0 8.4154839606e+07   0.00e+00  1.42e+03    1.000000e+00   1.000000e+00
+   5 5.7779453798e+00  -1.99e-01  1.42e-02   -3.403627e-04   3.297793e+00
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 5.77795
+rel. change during last iteration : -1.99396e-06
+
+degrees of freedom    (FIT_NDF)                        : 19
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.551455
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.304102
+p-value of the Chisq distribution (FIT_P)              : 0.998404
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+s               = -0.000340363     +/- 7.57e-06     (2.224%)
+t               = 3.29779          +/- 0.009074     (0.2751%)
+
+correlation matrix of the fit parameters:
+                s      t      
+s               1.000 
+t              -0.687  1.000 

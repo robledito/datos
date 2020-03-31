@@ -1,0 +1,235 @@
+
+
+*******************************************************************************
+Thu Aug 22 19:26:32 2019
+
+
+FIT:    data read from 'Term1.txt' u 1:2:3:4
+        format = x:y:z:s
+        #datapoints = 2
+function used for fitting: f(x)
+	f(x)=a*x+b
+BREAK: Need via and either parameter list or file
+
+*******************************************************************************
+Thu Aug 22 19:27:08 2019
+
+
+FIT:    data read from 'Term1.txt' u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 2
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 8.0800000000e+03   0.00e+00  2.61e+02    1.000000e+00   1.000000e+00
+   8 0.0000000000e+00  -inf       2.61e-06    2.187500e+00  -2.735625e+01
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -4.3635e-27
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 2.1875         
+b               = -27.3562       
+
+
+*******************************************************************************
+Thu Aug 22 19:28:58 2019
+
+
+FIT:    data read from 'Term1.txt' u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 2
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.4187594868e+05   0.00e+00  5.38e+02    2.187500e+00  -2.735625e+01
+   6 4.1371850560e-27   0.00e+00  5.38e+01    4.693878e-01   1.668571e+01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 4.13719e-27
+rel. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.469388       
+b               = 16.6857        
+
+
+*******************************************************************************
+Thu Aug 22 19:38:13 2019
+
+
+FIT:    data read from 'Term2.txt' u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        x range restricted to [13.0000 : 48.0000]
+        #datapoints = 2
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 1.3509733788e+04   0.00e+00  2.80e+02    4.693878e-01   1.668571e+01
+   6 0.0000000000e+00  -inf       2.80e+00    4.571429e-01   1.250571e+01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -4.17601e-27
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.457143       
+b               = 12.5057        
+
+
+*******************************************************************************
+Thu Aug 22 19:38:32 2019
+
+
+FIT:    data read from 'Term2.txt' u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        x range restricted to [13.0000 : 48.0000]
+        #datapoints = 2
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 0.0000000000e+00  nan        2.39e+02    4.571429e-01   1.250571e+01
+   1 0.0000000000e+00  nan        2.39e+01    4.571429e-01   1.250571e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.457143       
+b               = 12.5057        
+
+
+*******************************************************************************
+Fri Aug 23 18:03:17 2019
+
+
+FIT:    data read from 'Term1.txt' u 1:2:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 2
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 3.0736000000e+04   0.00e+00  3.99e+02    1.000000e+00   1.000000e+00
+   7 0.0000000000e+00  -inf       3.99e-05    4.693878e-01   1.668571e+01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -3.72347e-26
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.469388       
+b               = 16.6857        
+
+
+*******************************************************************************
+Sat Aug 24 15:01:36 2019
+
+
+FIT:    data read from 'Term2.txt' u 2:1:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 2
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 8.0800000000e+03   0.00e+00  2.61e+02    1.000000e+00   1.000000e+00
+   8 0.0000000000e+00  -inf       2.61e-06    2.187500e+00  -2.735625e+01
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -4.3635e-27
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 2.1875         
+b               = -27.3562       
+
+
+*******************************************************************************
+Sat Aug 24 15:09:51 2019
+
+
+FIT:    data read from 'Term1.txt' u 2:1:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 2
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Sat Aug 24 15:09:57 2019
+
+
+FIT:    data read from 'Term1.txt' u 2:1:3:4 xyerrors
+        format = x:z:sx:s
+        #datapoints = 2
+function used for fitting: f(x)
+	f(x)=a*x+b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.5936000000e+04   0.00e+00  3.48e+02    1.000000e+00   1.000000e+00
+   8 3.6460989498e-27   0.00e+00  3.48e+00    2.130435e+00  -3.554783e+01
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 3.6461e-27
+rel. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 2.13043        
+b               = -35.5478       
