@@ -1,0 +1,28 @@
+
+@BOOK{Refaño,
+    author = {},
+    year = ,
+    title = {},
+    edition = 2,
+    address = {ciudad, país},
+    publisher = {},
+}
+
+@ARTICLE{Danaño,
+    author = {Dantzig, G.B. and P. Wolfe},
+    year = 1960,
+    title = {Decomposition principle for linear programs}, 
+    journal = {Operations Research},
+    volume = 8,
+    pages = {101--111}
+    howpublished = {DOI}
+}
+
+@misc{refaño,
+    author = {},
+    title = {},
+    year = {},
+    howpublished = {Recuperado el 01 de mes, 2013 de url{}},
+}
+
+Recuerden que el autor tiene que llevar primero las inciales del nombre y su primer apellido completo, y cuando son varios divididos por un "and"

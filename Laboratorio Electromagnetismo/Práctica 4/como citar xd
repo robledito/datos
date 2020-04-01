@@ -1,0 +1,28 @@
+
+@BOOK{Refaño,
+    author = {},
+    year = ,
+    title = {},
+    edition = 2,
+    address = {ciudad, país},
+    publisher = {},
+}
+
+@ARTICLE{articulo,
+    author = {Trotter, D.},
+    year = 1988,
+    title = {Capacitors}, 
+    journal = {Scientific American},
+    volume = 259,
+    pages = {86-90C}
+    howpublished = {DOI}
+}
+
+@misc{refaño,
+    author = {},
+    title = {},
+    year = {},
+    howpublished = {Recuperado el 01 de mes, 2013 de url{}},
+}
+
+Recuerden que el autor tiene que llevar primero las inciales del nombre y su primer apellido completo, y cuando son varios divididos por un "and"
